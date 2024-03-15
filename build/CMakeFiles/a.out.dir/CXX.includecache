@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lzz773/CP2024/IsingModel.hpp
+bits/stdc++.h
+-
+
+/home/lzz773/CP2024/Ising_system.cpp
+IsingModel.hpp
+/home/lzz773/CP2024/IsingModel.hpp
+bits/stdc++.h
+-
+
