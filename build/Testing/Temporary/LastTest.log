@@ -1,22 +1,22 @@
-Start testing: Mar 15 16:20 HKT
+Start testing: Mar 24 21:50 HKT
 ----------------------------------------------------------
-1/1 Testing: IsingTests
-1/1 Test: IsingTests
-Command: "/home/lzz773/CP2024/build/SystemTest"
+1/1 Testing: CanonicalEnsembleTest
+1/1 Test: CanonicalEnsembleTest
+Command: "/home/lzz773/CP2024/build/CanonicalEnsembleTest"
 Directory: /home/lzz773/CP2024/build
-"IsingTests" start time: Mar 15 16:20 HKT
+"CanonicalEnsembleTest" start time: Mar 24 21:50 HKT
 Output:
 ----------------------------------------------------------
-Randomness seeded to: 1806876816
+Randomness seeded to: 1034299509
 ===============================================================================
-All tests passed (60 assertions in 2 test cases)
+All tests passed (3 assertions in 1 test case)
 
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"IsingTests" end time: Mar 15 16:20 HKT
-"IsingTests" time elapsed: 00:00:00
+"CanonicalEnsembleTest" end time: Mar 24 21:50 HKT
+"CanonicalEnsembleTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Mar 15 16:20 HKT
+End testing: Mar 24 21:50 HKT

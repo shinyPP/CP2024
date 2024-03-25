@@ -190,17 +190,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named SystemTest
+# Target rules for targets named CanonicalEnsembleTest
 
 # Build rule for target.
-SystemTest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SystemTest
-.PHONY : SystemTest
+CanonicalEnsembleTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CanonicalEnsembleTest
+.PHONY : CanonicalEnsembleTest
 
 # fast build rule for target.
-SystemTest/fast:
-	$(MAKE) -f CMakeFiles/SystemTest.dir/build.make CMakeFiles/SystemTest.dir/build
-.PHONY : SystemTest/fast
+CanonicalEnsembleTest/fast:
+	$(MAKE) -f CMakeFiles/CanonicalEnsembleTest.dir/build.make CMakeFiles/CanonicalEnsembleTest.dir/build
+.PHONY : CanonicalEnsembleTest/fast
 
 #=============================================================================
 # Target rules for targets named a.out
@@ -241,59 +241,59 @@ Catch2/fast:
 	$(MAKE) -f _deps/catch2-build/src/CMakeFiles/Catch2.dir/build.make _deps/catch2-build/src/CMakeFiles/Catch2.dir/build
 .PHONY : Catch2/fast
 
-Ising_system.o: Ising_system.cpp.o
+CanonicalEnsembleTest.o: CanonicalEnsembleTest.cpp.o
 
-.PHONY : Ising_system.o
-
-# target to build an object file
-Ising_system.cpp.o:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/Ising_system.cpp.o
-.PHONY : Ising_system.cpp.o
-
-Ising_system.i: Ising_system.cpp.i
-
-.PHONY : Ising_system.i
-
-# target to preprocess a source file
-Ising_system.cpp.i:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/Ising_system.cpp.i
-.PHONY : Ising_system.cpp.i
-
-Ising_system.s: Ising_system.cpp.s
-
-.PHONY : Ising_system.s
-
-# target to generate assembly for a file
-Ising_system.cpp.s:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/Ising_system.cpp.s
-.PHONY : Ising_system.cpp.s
-
-SystemTest.o: SystemTest.cpp.o
-
-.PHONY : SystemTest.o
+.PHONY : CanonicalEnsembleTest.o
 
 # target to build an object file
-SystemTest.cpp.o:
-	$(MAKE) -f CMakeFiles/SystemTest.dir/build.make CMakeFiles/SystemTest.dir/SystemTest.cpp.o
-.PHONY : SystemTest.cpp.o
+CanonicalEnsembleTest.cpp.o:
+	$(MAKE) -f CMakeFiles/CanonicalEnsembleTest.dir/build.make CMakeFiles/CanonicalEnsembleTest.dir/CanonicalEnsembleTest.cpp.o
+.PHONY : CanonicalEnsembleTest.cpp.o
 
-SystemTest.i: SystemTest.cpp.i
+CanonicalEnsembleTest.i: CanonicalEnsembleTest.cpp.i
 
-.PHONY : SystemTest.i
+.PHONY : CanonicalEnsembleTest.i
 
 # target to preprocess a source file
-SystemTest.cpp.i:
-	$(MAKE) -f CMakeFiles/SystemTest.dir/build.make CMakeFiles/SystemTest.dir/SystemTest.cpp.i
-.PHONY : SystemTest.cpp.i
+CanonicalEnsembleTest.cpp.i:
+	$(MAKE) -f CMakeFiles/CanonicalEnsembleTest.dir/build.make CMakeFiles/CanonicalEnsembleTest.dir/CanonicalEnsembleTest.cpp.i
+.PHONY : CanonicalEnsembleTest.cpp.i
 
-SystemTest.s: SystemTest.cpp.s
+CanonicalEnsembleTest.s: CanonicalEnsembleTest.cpp.s
 
-.PHONY : SystemTest.s
+.PHONY : CanonicalEnsembleTest.s
 
 # target to generate assembly for a file
-SystemTest.cpp.s:
-	$(MAKE) -f CMakeFiles/SystemTest.dir/build.make CMakeFiles/SystemTest.dir/SystemTest.cpp.s
-.PHONY : SystemTest.cpp.s
+CanonicalEnsembleTest.cpp.s:
+	$(MAKE) -f CMakeFiles/CanonicalEnsembleTest.dir/build.make CMakeFiles/CanonicalEnsembleTest.dir/CanonicalEnsembleTest.cpp.s
+.PHONY : CanonicalEnsembleTest.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -308,18 +308,18 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... package"
-	@echo "... SystemTest"
+	@echo "... CanonicalEnsembleTest"
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... a.out"
 	@echo "... Catch2WithMain"
 	@echo "... Catch2"
-	@echo "... Ising_system.o"
-	@echo "... Ising_system.i"
-	@echo "... Ising_system.s"
-	@echo "... SystemTest.o"
-	@echo "... SystemTest.i"
-	@echo "... SystemTest.s"
+	@echo "... CanonicalEnsembleTest.o"
+	@echo "... CanonicalEnsembleTest.i"
+	@echo "... CanonicalEnsembleTest.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

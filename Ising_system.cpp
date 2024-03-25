@@ -1,4 +1,4 @@
-#include "IsingModel.hpp"
+#include "IsingSpin.hpp"
 #include <bits/stdc++.h>
 
 using namespace std;

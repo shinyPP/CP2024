@@ -5,7 +5,7 @@
 /home/lzz773/CP2024/build/CMakeFiles/list_install_components.dir
 /home/lzz773/CP2024/build/CMakeFiles/rebuild_cache.dir
 /home/lzz773/CP2024/build/CMakeFiles/package.dir
-/home/lzz773/CP2024/build/CMakeFiles/SystemTest.dir
+/home/lzz773/CP2024/build/CMakeFiles/CanonicalEnsembleTest.dir
 /home/lzz773/CP2024/build/CMakeFiles/edit_cache.dir
 /home/lzz773/CP2024/build/CMakeFiles/test.dir
 /home/lzz773/CP2024/build/CMakeFiles/a.out.dir

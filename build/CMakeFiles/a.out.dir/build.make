@@ -57,27 +57,27 @@ include CMakeFiles/a.out.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/a.out.dir/flags.make
 
-CMakeFiles/a.out.dir/Ising_system.cpp.o: CMakeFiles/a.out.dir/flags.make
-CMakeFiles/a.out.dir/Ising_system.cpp.o: ../Ising_system.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lzz773/CP2024/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/a.out.dir/Ising_system.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a.out.dir/Ising_system.cpp.o -c /home/lzz773/CP2024/Ising_system.cpp
+CMakeFiles/a.out.dir/main.cpp.o: CMakeFiles/a.out.dir/flags.make
+CMakeFiles/a.out.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lzz773/CP2024/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/a.out.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a.out.dir/main.cpp.o -c /home/lzz773/CP2024/main.cpp
 
-CMakeFiles/a.out.dir/Ising_system.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.dir/Ising_system.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lzz773/CP2024/Ising_system.cpp > CMakeFiles/a.out.dir/Ising_system.cpp.i
+CMakeFiles/a.out.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.dir/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lzz773/CP2024/main.cpp > CMakeFiles/a.out.dir/main.cpp.i
 
-CMakeFiles/a.out.dir/Ising_system.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.dir/Ising_system.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lzz773/CP2024/Ising_system.cpp -o CMakeFiles/a.out.dir/Ising_system.cpp.s
+CMakeFiles/a.out.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.dir/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lzz773/CP2024/main.cpp -o CMakeFiles/a.out.dir/main.cpp.s
 
 # Object files for target a.out
 a_out_OBJECTS = \
-"CMakeFiles/a.out.dir/Ising_system.cpp.o"
+"CMakeFiles/a.out.dir/main.cpp.o"
 
 # External object files for target a.out
 a_out_EXTERNAL_OBJECTS =
 
-a.out: CMakeFiles/a.out.dir/Ising_system.cpp.o
+a.out: CMakeFiles/a.out.dir/main.cpp.o
 a.out: CMakeFiles/a.out.dir/build.make
 a.out: CMakeFiles/a.out.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lzz773/CP2024/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable a.out"
