@@ -6,7 +6,7 @@ on: # Define which events can cause the workflow to run
 jobs: # A workflow run is made up of one or more jobs, which run in parallel
   build: # Job ID
     name: Build & Tests # Set a name for the job
-    strategy: # Define a matrix of different job configurations (OS's in the following)
+    strategy: # Define a matrix of different job configurations. (OS's in the following)
       matrix:
         os: [ubuntu-latest]
 
