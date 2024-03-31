@@ -1,5 +1,0 @@
-Modeltest 7 0.000268783
-IsingSpinOnLatticeTest 7 0.000245501
-SquareSystemTest 6 0.000330144
-CanonicalEnsembleTest 1 0.00183488
----

@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/IsingSpinOnLatticeTest.dir/IsingSpinOnLatticeTest.cpp.o  -o IsingSpinOnLatticeTest  _deps/catch2-build/src/libCatch2Main.a _deps/catch2-build/src/libCatch2.a 
