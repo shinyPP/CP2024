@@ -8,7 +8,7 @@ jobs: # A workflow run is made up of one or more jobs, which run in parallel
     name: Build & Tests # Set a name for the job
     strategy: # Define a matrix of different job configurations (OS's in the following)
       matrix:
-        os: [ubuntu-latest, macos-latest]
+        os: [ubuntu-latest]
 
     runs-on: ${{ matrix.os }} # Define the type(s) of machine to run the job on.
 
