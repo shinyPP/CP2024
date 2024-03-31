@@ -1,3 +1,0 @@
-/home/lzz773/CP2024/build/_deps/catch2-subbuild/CMakeFiles/rebuild_cache.dir
-/home/lzz773/CP2024/build/_deps/catch2-subbuild/CMakeFiles/edit_cache.dir
-/home/lzz773/CP2024/build/_deps/catch2-subbuild/CMakeFiles/catch2-populate.dir
